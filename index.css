@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #0f1115;
+    user-select: none;
+} 
+
+.head-banner {
+    background-color: #c4578d;
+    background-size: cover;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    color: #e5e1dd;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.menu-container {
+    max-width: 400px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #c4578d;
+}
+
+.emoji {
+    font-size: 3.5em;
+}
+
+.item-info {
+    margin-right: auto; 
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.add-item-btn {
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5em;
+}
+
+.item-name {
+    font-size: 1.3em;
+}
+
+.item-description {
+    font-size: 0.8em;
+}
+
+.item-price {
+    font-size: 1.3em;
+}
+
+.cart {
+    display: none;
+    max-width: 350px;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+
+.cart h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.cart-item {
+    font-weight: bold;
+}
+
+.item-remove-btn {
+    background-color: white; 
+    border: none;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.cart-item-price {
+    display: flex;
+    margin-left: auto;
+    font-weight: bolder;
+}
+
+.cart-price {
+    display: flex;
+    padding-top: 3px; 
+}
+
+.cart-total-price {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 0;
+    border-top: 2px solid #c4578d;
+    padding-top: 5px;
+}
+
+.order-btn {
+    background-color: #c4578d;
+    border: none;
+    height: 40px;
+    border-radius: 2px;
+    color: #e5e1dd;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.form-element {
+    height: 250px;
+    max-width: 300px;
+    background-color: #e5e1dd;
+    position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 2px;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center
+}
+
+.input-form {
+    height: 30px;
+    width: 80%;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #0f1115; 
+}
+
+.submit-btn {
+    width: 80%;
+    border: none;
+    border-radius: 3px;
+    background-color: #c4578d;
+    color: #e5e1dd;
+    padding: 10px;
+}
+
+.thank-you-msg {
+    display: none;
+    background-color: #ffafcc;
+    font-size: 0.5em;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+}

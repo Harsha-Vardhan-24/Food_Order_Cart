@@ -1,0 +1,50 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main>
+            <header class="head-banner">
+                <h2 class="no-margin">Jimmy’s Diner</h2>
+                <h4 class="no-margin">The best burgers and pizzas in town.</h4>
+            </header>
+            <div id="menu-list">
+                <!-- Items goes here -->
+            </div>
+            <!-- Cart element -->
+            <div id="cart" class="cart">
+                <div>
+                    <h3 class="no-margin">Your Cart</h3>
+                    <div class="cart-items">
+                        <div id="add-items">
+                            <!-- Cart Items goes here -->
+                        </div>
+                        <div class="cart-total-price">
+                            <p class="no-margin">Total Price:</p>
+                            <p id="cart-price" class="no-margin"></p>
+                        </div>
+                        <button id="order-btn" class="order-btn">Complete Order</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Form element goes here -->
+            <form id="order-details" class="form-element">
+                <h4 class="no-margin">Enter card details</h4>
+                <input name="user-name" class="input-form" placeholder="Enter your name" type="text" required />
+                <input name="user-card-details" class="input-form" placeholder="Enter your card number" type="text" required />
+                <input name="user-card-cvv" class="input-form" placeholder="Enter your CVV" type="password" required />
+                <button id="submit-btn" class="submit-btn">Pay</button>
+            </form>
+            <!-- Render message -->
+            <div id="thank-you-msg" class="thank-you-msg">
+                <!-- Msg goes here -->
+            </div>
+        </main>
+	<script type="module" src="index.js"></script>
+    </body>
+</html>
+
